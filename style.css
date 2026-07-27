@@ -1,0 +1,143 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Body & Font ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf7f2; /* nuansa krem lembut */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #4b2e2e; /* coklat kopi pekat */
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #f5d7a1 !important; /* aksen emas kopi */
+}
+.nav-link {
+  color: #fff !important;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  color: #f5d7a1 !important;
+}
+
+/* ===== Hero Section ===== */
+header {
+  background: linear-gradient(135deg, #4b2e2e, #a67c52);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+header p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+header .btn-primary {
+  background-color: #f5d7a1;
+  border: none;
+  color: #4b2e2e;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+header .btn-primary:hover {
+  background-color: #fff;
+  color: #4b2e2e;
+}
+
+/* ===== Produk Cards ===== */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.card-title {
+  color: #4b2e2e;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 0.95rem;
+}
+
+/* ===== Galeri ===== */
+.gallery-item img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* ===== Kontak Form ===== */
+form input, form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+form button {
+  background-color: #4b2e2e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+form button:hover {
+  background-color: #f5d7a1;
+  color: #4b2e2e;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #4b2e2e;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 15px;
+  text-align: center;
+}
+/* ===== Gallery Horizontal ===== */
+.container .row img {
+  height: 250px;        /* tinggi seragam */
+  object-fit: cover;    /* gambar proporsional */
+  transition: transform 0.3s ease;
+}
+
+.container .row img:hover {
+  transform: scale(1.05); /* efek zoom saat hover */
+}
+/* ===== Footer Sticky ===== */
+html, body {
+  height: 100%;              /* tinggi penuh */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  flex: 1;
+}
+
+footer {
+  background-color: #1a2a6c; /* warna bisa diganti sesuai tema */
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: auto;          /* kunci footer di bawah */
+}

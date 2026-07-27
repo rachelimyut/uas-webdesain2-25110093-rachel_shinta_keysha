@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kontak | BREUU Kitchen & Coffee</title>
+
+<link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<style>
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#fff7fb;
+}
+
+/* ================= Navbar ================= */
+
+.navbar{
+    background:linear-gradient(90deg,#ff5fa2,#ff92c7);
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white!important;
+    transition:.3s;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:#ffe5f0!important;
+}
+
+/* ================= Hero ================= */
+
+.hero{
+
+    height:300px;
+
+    background:
+    linear-gradient(rgba(255,95,162,.65),rgba(255,146,199,.65)),
+    url("breu.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+
+.hero h1{
+
+    color:white;
+    font-size:48px;
+    font-weight:bold;
+
+}
+
+.hero p{
+
+    color:white;
+    font-size:18px;
+
+}
+
+/* ================= Card ================= */
+
+.contact-card{
+
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    margin-top:-60px;
+    box-shadow:0 10px 30px rgba(255,105,180,.25);
+
+}
+
+.section-title{
+
+    color:#ff4f9d;
+    font-weight:bold;
+
+}
+
+/* ================= Form ================= */
+
+.form-control{
+
+    border-radius:12px;
+    padding:12px;
+    border:1px solid #ffc4dc;
+
+}
+
+.form-control:focus{
+
+    border-color:#ff4f9d;
+    box-shadow:0 0 10px rgba(255,79,157,.3);
+
+}
+
+.btn-kirim{
+
+    background:#ff4f9d;
+    color:white;
+    border:none;
+    border-radius:30px;
+    padding:12px;
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+.btn-kirim:hover{
+
+    background:#ff267f;
+    color:white;
+
+}
+
+/* ================= Info ================= */
+
+.info-box{
+
+    background:#fff0f6;
+    border-left:5px solid #ff4f9d;
+    padding:18px;
+    border-radius:12px;
+    margin-bottom:20px;
+
+}
+
+.info-box h5{
+
+    color:#ff4f9d;
+    font-weight:bold;
+
+}
+
+/* ================= Maps ================= */
+
+iframe{
+
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(255,105,180,.2);
+
+}
+
+/* ================= Footer ================= */
+
+footer{
+
+    margin-top:50px;
+    background:#ff5fa2;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+<div class="container">
+
+<a class="navbar-brand" href="home.html">
+☕ BREUU
+</a>
+
+<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="home.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="produk.html">Produk</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">Tentang</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="galeri.html">Galeri</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="kontak.html">Kontak</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div>
+
+<h1>Hubungi Kami</h1>
+
+<p>Kami siap melayani dan menerima saran terbaik dari Anda ☕💕</p>
+
+</div>
+
+</section>
+
+<!-- Kontak -->
+
+<div class="container">
+
+<div class="contact-card">
+
+<div class="row">
+
+<!-- Informasi -->
+
+<div class="col-lg-5 mb-4">
+
+<h2 class="section-title">
+Kontak BREUU
+</h2>
+
+<div class="info-box">
+
+<h5>📍 Alamat</h5>
+
+<p>
+BREUU Kitchen & Coffee<br>
+Pekanbaru, Riau
+</p>
+
+</div>
+
+<div class="info-box">
+
+<h5>📞 Telepon</h5>
+
+<p>62 838-5016-7019</p>
+
+</div>
+
+<div class="info-box">
+
+<h5>📧 Email</h5>
+
+<p>breuukitchen@gmail.com</p>
+
+</div>
+
+<div class="info-box">
+
+<h5>🕒 Jam Operasional</h5>
+
+<p>
+
+Minggu - Kamis<br>
+
+17.00 - 00.00 WIB
+
+<br><br>
+
+Jumat - Sabtu<br>
+
+17.00 - 02.00 WIB
+
+</p>
+
+</div>
+
+</div>
+
+<!-- Form -->
+
+<div class="col-lg-7">
+
+<h2 class="section-title">
+Kirim Pesan
+</h2>
+
+<form id="formKontak">
+
+<input
+type="text"
+id="nama"
+class="form-control mb-3"
+placeholder="Nama Lengkap"
+required>
+
+<input
+type="email"
+id="email"
+class="form-control mb-3"
+placeholder="Alamat Email"
+required>
+
+<textarea
+id="pesan"
+class="form-control mb-3"
+rows="5"
+placeholder="Tulis pesan Anda..."
+required></textarea>
+
+<button
+type="submit"
+class="btn btn-kirim btn-block">
+
+Kirim Pesan
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<hr class="my-5">
+
+<h2 class="text-center section-title">
+
+📍 Lokasi Kami
+
+</h2>
+
+<iframe
+src="https://maps.google.com/maps?q=Pekanbaru&t=&z=15&ie=UTF8&iwloc=&output=embed"
+width="100%"
+height="350"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 BREUU Kitchen & Coffee | Pekanbaru
+
+</footer>
+
+<script>
+
+document.getElementById("formKontak").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+Swal.fire({
+
+icon:'success',
+
+title:'Pesan Berhasil Dikirim',
+
+text:'Terima kasih telah menghubungi BREUU Kitchen & Coffee.',
+
+confirmButtonColor:'#ff4f9d'
+
+});
+
+this.reset();
+
+});
+
+</script>
+
+<script src="bootstrap-4.5.3-dist/js/jquery.min.js"></script>
+
+<script src="bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
